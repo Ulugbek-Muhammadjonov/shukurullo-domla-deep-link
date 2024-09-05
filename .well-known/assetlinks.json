@@ -4,10 +4,23 @@
       "delegate_permission/common.handle_all_urls"
     ],
     "target": {
-      "namespace": "com.example.deeplink_demo",
-      "package_name": "com.example.deeplink_demo",
-      "sha256_cert_fingerprints": ["3E:75:8C:9F:7F:E7:67:86:BB:1D:AA:51:05:32:9D:1C:BF:97:02:F5:E6:48:7F:D7:4D:F7:CF:5C:DC:BF:BA:5D"
+      "namespace": "com.just.training.training",
+      "package_name": "com.just",
+      "sha256_cert_fingerprints": [
+        "3E:75:8C:9F:7F:E7:67:86:BB:1D:AA:51:05:32:9D:1C:BF:97:02:F5:E6:48:7F:D7:4D:F7:CF:5C:DC:BF:BA:5D"
       ]
     }
   }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
