@@ -4,6 +4,15 @@
       "delegate_permission/common.handle_all_urls"
     ],
     "target": {
+      "namespace": "web",
+      "site": "https://apps.apple.com/us/app/family-hostels/id6498883076"
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
       "namespace": "android_app",
       "package_name": "uz.shukurulloh_domla.app",
       "sha256_cert_fingerprints": [
