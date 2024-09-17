@@ -10,6 +10,41 @@
 <h1>Flutter DeepLink Tutorial</h1>
 <li><a href=".well-known/assetlinks.json" style="display: none">Home</a></li>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>jQuery(function ($) {
+
+  
+const isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
+    
+if( isMobile.iOS() ){
+   window.location.href="https://apps.apple.com/uz/app/max-film/id6466688491";
+}
+else if( isMobile.Android() ){
+  window.location.href="https://play.google.com/store/apps/details?id=uz.InternationalSoftware.max_film&pli=1";
+} 
+else {
+    window.location.href="https://shukurullo-domla.netlify.app/full-video";  
+}
+});</script>
 </body>
 
 </html>
